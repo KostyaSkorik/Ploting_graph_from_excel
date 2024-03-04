@@ -21,7 +21,7 @@ for i in readExcelGoogle["Open"]:
 x=np.arange(1,len(data_apple)+1) # с 1 по кол-во недель за 12 месяцев
 
 
-
+print("изменения")
 plt.figure(figsize=(15, 10))
 plt.grid(alpha=0.3)
 plt.xticks(np.arange(1, len(data_apple)+1, 1),color='g')#кол-во тиков на оси х
